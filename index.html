@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+	<title>bootstrap 4 sidebar</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<nav id="sidebar">
+			<div class="sidebar-header">
+				<h3 id="name">Pallav</h3>
+				<h3 id="name">Vaghashia</h3>
+			</div>
+
+
+			<ul class="list-unstyled components">
+				<p>Dummy Heading</p>
+				<li class="active">
+					<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+					<ul class="collapse list-unstyled" id="homeSubmenu">
+						<li>
+							<a href="#">home1</a>
+						</li>
+						<li>
+							<a href="#">home2</a>
+						</li>
+						<li>
+							<a href="#">home3</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">About</a>
+				</li>
+				<li>
+					<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Page</a>
+					<ul class="collapse list-unstyled" id="pageSubmenu">
+						<li>
+							<a href="#">page1</a>
+						</li>
+						<li>
+							<a href="#">page2</a>
+						</li>
+						<li>
+							<a href="#">page3</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Services</a>
+				</li>
+				<li>
+					<a href="#">Contact Us</a>
+				</li>
+			</ul>
+
+		</nav>
+
+		<div class="content">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+				<button type="button" id="sidebarCollapse" class="btn btn-info">
+					<i class="fa fa-align-justify"></i> <span>toggle sidebar</span>
+				</button>
+
+				<!--<a class="navbar-brand" href="#">Navbar</a> -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+			</nav>
+
+
+			<div id=box>
+				<div id="main">
+					<div id="banner">
+						<img src="images/pic01.jpg" alt="" class="image-full" />
+					</div>
+					<div id="welcome">
+						<div class="title">
+							<h2>About Me</h2>
+							<span class="byline">I have always wondered how people managed to create such vast worlds inside a TV/computer screen; how they were able to make something out of nothing; how they were able to tell a computer what to do. All of these video games made me want to follow the footsteps of the game developers.<br><br>
+								I, too, wanted to create something that would have a lasting impact on people; something that would trigger nostalgia; something that would serve as a temporary relief for people going through tough times; something that is worthwhile; something that makes people happy; that would make me happy.
+								Combined with my passion for learning and Mathematics, the stage was set for me to begin my programming journey.<br><br>
+								In order to make sure that I understood the basics of programming, I started with web development to keep things simple. I could say that I did not regret that decision at all. Perhaps I could even say that it was the best decision I could have made at the time. In many ways, JavaScript helped me understand what programming truly is and how it works (which I can say right now is more than just typing fast and memorizing syntax). Now that I'm learning Full Stack Development to start my journey in becoming a developer, all of my knowledge in HTML, CSS, JavaScript, JQuery, MySql, Database and API is making the learning process easier, faster, and more intuitive.<br><br>
+								It is important to know why we code in the first place to prevent the dreaded burnout. Forgetting our roots will surely get us lost in the monotony of programming. With that said, who or what was your inspiration to do programming? For sure, mine were video games and the passion for learning, Mathematics, and creating things that work, function, and serve purpose to others.
+								<br>
+								<br>
+								</span>
+						</div>
+						
+					<div id="featured">
+						<div class="title">
+							<h2>Maecenas lectus sapien</h2>
+							<span class="byline">Integer sit amet aliquet pretium</span>
+						</div>
+						<ul class="style1">
+							<li class="first">
+								<p class="date"><a href="#">Jan<b>05</b></a></p>
+								<h3>Amet sed volutpat mauris</h3>
+								<p><a href="#">Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Etiam non felis. Donec ut ante.</a></p>
+							</li>
+							<li>
+								<p class="date"><a href="#">Jan<b>03</b></a></p>
+								<h3>Sagittis diam dolor amet</h3>
+								<p><a href="#">Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie. Donec leo, vivamus fermentum nibh in augue praesent congue rutrum.</a></p>
+							</li>
+							<li>
+								<p class="date"><a href="#">Jan<b>01</b></a></p>
+								<h3>Amet sed volutpat mauris</h3>
+								<p><a href="#">Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Etiam non felis. Donec ut ante.</a></p>
+							</li>
+							<li>
+								<p class="date"><a href="#">Dec<b>31</b></a></p>
+								<h3>Sagittis diam dolor amet</h3>
+								<p><a href="#">Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie. Donec leo, vivamus fermentum nibh in augue praesent congue rutrum.</a></p>
+							</li>
+						</ul>
+					</div>
+					<div id="copyright">
+						<span>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a></span>
+						<span>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</span>
+					</div>
+				</div>
+			</div>
+
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$('#sidebarCollapse').on('click', function () {
+				$('#sidebar').toggleClass('active');
+			});
+		});
+	</script>
+
+
+
+
+
+</body>
+
+</html>
